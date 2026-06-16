@@ -1,0 +1,1 @@
+http GET :8080/api/test/user  'Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbm5hIiwiaWF0IjoxNzgxNjM0MjY4LCJleHAiOjE3ODE3MjA2Njh9.3jkLcO1rTAucEITKAjFlslu7Lr-4ZFZq0ul-R5aj8-JzTb7t6soavB-IGOITJXlyV19fpY9g2AlIGWPqmgb6wg'

@@ -1,0 +1,42 @@
+spring:
+  # Настройка для базы Postgres
+  #  datasource:
+  #    url: jdbc:postgresql://localhost:5432/securityrest2
+  #    username: dbadmin
+  #    password: qwerty1
+  #
+  #  jpa:
+  #    properties:
+  #      hibernate:
+  #        jdbc.lob.non_contextual_creation: true
+  #        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  # Настройка для базы H2
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+    #  spring.hibernate.hbm2ddl.auto=create-drop
+    dataSource:
+      url: jdbc:h2:mem:testdb
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
+
+    # Hibernate ddl auto (create, create-drop, validate, update)
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.H2Dialect
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    ru.perm.v: debug
+
+  # App Properties
+vasi:
+  app:
+    jwtSecret: KoderSecretKey
+    jwtExpirationMs: 86400000
