@@ -1,7 +1,6 @@
 = Spring Boot Security REST через JWT
 
-Демонстрация защишенного REST сервиса и доступом к нему через https://ru.wikipedia.org/wiki/Одностраничное_приложение[Одностраничное_приложение] на
-https://vuejs.org[Vue].
+Демонстрация защишенного REST сервиса.
 
 
 ==== _Источники_
@@ -22,6 +21,4 @@ login: anna
 password: 456
 ....
 
-https://github.com/cherepakhin/security-rest-vue-ui[Интерфейсная часть]
-
-http://v.perm.ru/vue[Демо]
+Тесты из коммандной строки в папке [https://github.com/cherepakhin/securityrest2/tree/main/scripts](https://github.com/cherepakhin/securityrest2/tree/main/scripts)
