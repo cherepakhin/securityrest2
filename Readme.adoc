@@ -1,4 +1,4 @@
-= Spring Boot Security REST через JWT и оформлением с помощью Vue
+= Spring Boot Security REST через JWT
 
 Демонстрация защишенного REST сервиса и доступом к нему через https://ru.wikipedia.org/wiki/Одностраничное_приложение[Одностраничное_приложение] на
 https://vuejs.org[Vue].
