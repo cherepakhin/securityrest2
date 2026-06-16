@@ -24,6 +24,12 @@ login: anna
 password: 456
 ````
 
+### Запуск
+
+````shell
+./mvnw clean spring-boot:run
+````
+
 ### Тесты
 
 Тесты из коммандной строки в папке [https://github.com/cherepakhin/securityrest2/tree/main/scripts](https://github.com/cherepakhin/securityrest2/tree/main/scripts)
